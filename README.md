@@ -1,3 +1,6 @@
+[Try site](https://felipe-m-dev.github.io/React-challenge-02/)
+
+
 # Desafío 2 - Estado de los componentes y eventos
 
 En este desafío validaremos nuestros conocimientos de la unidad Estado de los componentes y eventos.
@@ -29,5 +32,3 @@ Te compartimos una imagen de referencia de la aplicación.
 <p align="center">
   <img src="https://github.com/Felipe-M-dev/React-challenge-02/blob/main/01.png?raw=true?raw=true" alt="Imagen 01">
 </p>
-
-[Try site](https://felipe-m-dev.github.io/React-challenge-02/)
