@@ -1,0 +1,36 @@
+import { useState } from 'react';
+import './App.css'
+import Input from './components/Input'
+
+
+function App() {
+  const [password, setPassword] = useState("");
+  const [name, setName] = useState("");
+  const [error, setError] = useState(false);
+
+  const validateForm = (e) => { 
+    e.preventDefault();
+    if (name === "") {
+      setError(true);
+    return;
+    }
+    setError(false);
+    setName("");
+    setPassword("");
+  };
+
+  return (
+    <>
+      <Input 
+        formulario={validateForm} 
+        error={error} 
+        dataName={name} 
+        name={setName} 
+        dataPassword={password} 
+        password={setPassword}
+      />
+    </>
+  );
+}
+
+export default App
